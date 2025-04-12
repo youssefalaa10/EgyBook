@@ -8,6 +8,7 @@ import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import DiscoverPlacesSection from "@/components/DiscoverPlacesSection";
 import TrendingDestinationsSection from "@/components/TrendingDestinationsSection";
 import WhyChooseEgyBook from "@/components/WhyChooseEgyBook";
+import TravelBooking from "@/components/TravelBooking";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
       <DiscoverPlacesSection />
       <WhyChooseEgyBook />
       <TrendingDestinationsSection />
+      <TravelBooking />
     </Box>
   );
 }

@@ -21,7 +21,6 @@ const WhyChooseEgyBook = () => {
           Book?
         </Heading>
 
-        {/* Flex Row of Features */}
         <Flex
           direction={{ base: "column", md: "row" }}
           gap={10}
@@ -29,7 +28,6 @@ const WhyChooseEgyBook = () => {
           align="flex-start"
           flexWrap="wrap"
         >
-          {/* Feature 1 */}
           <VStack align="flex-start" spacing={4} maxW="sm">
             <FaMousePointer size={32} color="#286046" />
             <Text fontSize="lg" color="white">
@@ -47,7 +45,6 @@ const WhyChooseEgyBook = () => {
             </Text>
           </VStack>
 
-          {/* Feature 2 */}
           <VStack align="flex-start" spacing={4} maxW="sm">
             <Box
               border="2px solid"
@@ -71,7 +68,6 @@ const WhyChooseEgyBook = () => {
             </Text>
           </VStack>
 
-          {/* Feature 3 */}
           <VStack align="flex-start" spacing={4} maxW="sm">
             <FaPiggyBank size={32} color="#286046" />
             <Text fontSize="lg" color="white">
