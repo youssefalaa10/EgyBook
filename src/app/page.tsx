@@ -6,6 +6,7 @@ import RelevantHotelsSection from "@/components/RelevantHotelsSection";
 import Navbar from "@/components/Navbar";
 import { Box, Button, Heading, Text } from "@chakra-ui/react";
 import DiscoverPlacesSection from "@/components/DiscoverPlacesSection";
+import TrendingDestinationsSection from "@/components/TrendingDestinationsSection";
 
 export default function HomePage() {
   return (
@@ -14,6 +15,7 @@ export default function HomePage() {
       <Hero />
       <RelevantHotelsSection />
       <DiscoverPlacesSection />
+      <TrendingDestinationsSection />
     </Box>
   );
 }
