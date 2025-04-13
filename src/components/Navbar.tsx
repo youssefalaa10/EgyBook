@@ -18,7 +18,8 @@ import {
   FaUserCircle,
 } from "react-icons/fa";
 import Link from "next/link";
-
+import Image from "next/image";
+import logo from "../../public/logo.png";
 export default function Navbar() {
   const isMobile = useBreakpointValue({ base: true, md: false });
   const [activeLink, setActiveLink] = useState("EgyBook");
@@ -35,12 +36,14 @@ export default function Navbar() {
         <Flex justify="space-between" align="center" flexWrap="wrap">
           {/* Logo */}
           <Flex align="center" gap={1} cursor="pointer">
-            <Text fontWeight="bold" fontSize="2xl" color="brand.500">
-              G<span style={{ color: "#d2ac71" }}>©</span>E
-            </Text>
-            <Text fontSize="sm" color="brand.500">
-              EgyBook
-            </Text>
+          <Image
+                src={logo}
+                alt='LOGO'
+                width={80}
+                height={50}
+                style={{ objectFit: "cover" }}
+                placeholder="blur"
+              />
           </Flex>
 
           {/* Navigation Links */}

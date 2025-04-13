@@ -9,6 +9,7 @@ import DiscoverPlacesSection from "@/components/DiscoverPlacesSection";
 import TrendingDestinationsSection from "@/components/TrendingDestinationsSection";
 import WhyChooseEgyBook from "@/components/WhyChooseEgyBook";
 import TravelBooking from "@/components/TravelBooking";
+import Footer from "@/components/Footer";
 
 export default function HomePage() {
   return (
@@ -20,6 +21,7 @@ export default function HomePage() {
       <WhyChooseEgyBook />
       <TrendingDestinationsSection />
       <TravelBooking />
+      <Footer />
     </Box>
   );
 }
